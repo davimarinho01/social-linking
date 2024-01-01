@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap');
 
+
+/* For Desktop */
+
 *{
     width: auto;
     margin: 0px;
@@ -45,7 +48,7 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 400px;
+    width: 600px;
     height: 45px;
     margin: 30px;
     border: 2px;
@@ -67,6 +70,148 @@ a{
 footer{
     display: flex;
     justify-content: center;
-    margin: 45px;
+    margin-top: 120px;
     font-size: 15px;
+}
+
+
+/* For Smartphones */
+
+@media only screen and (min-width: 410px) {
+
+    #profile{
+        width: 150px;
+        height: 150px;
+        margin-top: 150px;
+    }
+
+    #name{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    #phrase{
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 400px;
+        height: 45px;
+        margin: 30px;
+        border: 2px;
+        border-radius: 20px;
+        background-color: rgb(211, 187, 156);
+        font-weight: 400;
+        font-size: 15px;
+        box-shadow: 0px 15px 20px #0c3a4d93;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 120px;
+        font-size: 15px;
+    }
+}
+
+
+/* For small devices*/
+
+@media only screen and (min-width: 300px) {
+    
+    #profile{
+        width: 100px;
+        height: 100px;
+        margin-top: 100px;
+    }
+
+    #name{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    #phrase{
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 300px;
+        height: 45px;
+        margin: 30px;
+        border: 2px;
+        border-radius: 20px;
+        background-color: rgb(211, 187, 156);
+        font-style: bold;
+        font-weight: 400;
+        font-size: 15px;
+        box-shadow: 0px 15px 20px #0c3a4d93;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        font-size: 10px;
+    }
+}
+
+
+/* For tablets */
+
+@media only screen and (min-width: 748px) {
+
+    #profile{
+        width: 200px;
+        height: 200px;
+        margin-top: 80px;
+    }
+
+    #name{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 500px;
+        height: 45px;
+        margin: 30px;
+        border: 2px;
+        border-radius: 20px;
+        background-color: rgb(211, 187, 156);
+        font-style: bold;
+        font-weight: 400;
+        font-size: 15px;
+        box-shadow: 0px 15px 20px #0c3a4d93;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        font-size: 15px;
+    }
+
 }
